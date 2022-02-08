@@ -1,6 +1,6 @@
 # Ultimate Yarn bundle CLI
 
-Forked part of [yarnpkg-cli](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-cli) helping to build own Yarn CLI with bultin plugins.
+Forked part of [yarnpkg-cli](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-cli) helping to build own Yarn CLI with bult-in plugins.
 
 ## Installation
 
@@ -12,11 +12,15 @@ Forked part of [yarnpkg-cli](https://github.com/yarnpkg/berry/tree/master/packag
 
 ## How to use
 
-Open your project and execute
+1. Open your project and check that you don't use any yarn plugins and custom versions.
+2. Execute the next command:
 
-> yarn set version https://raw.githubusercontent.com/RuBAN-GT/yarn-ultimate-cli/master/bundles/yarn.js
+```sh
+curl -L 'https://raw.githubusercontent.com/RuBAN-GT/yarn-ultimate-cli/master/bundles/yarn.js' > '/tmp/yarn.js'
+yarn set version berry && yarn set version /tmp/yarn.js
+```
 
-## Bultin plugins
+## Bult-in plugins
 
 ### Custom plugins:
 
