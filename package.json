@@ -1,0 +1,74 @@
+{
+  "name": "yarn-ultimate-cli",
+  "version": "3.1.0-ultimate",
+  "description": "Ultimate Yarn bundle CLI",
+  "author": "Dmitry Ruban <dkruban@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "builder build bundle"
+  },
+  "packageManager": "yarn@3.1.0",
+  "@yarnpkg/builder": {
+    "bundles": {
+      "standard": [
+        "@yarnpkg/plugin-essentials",
+        "@yarnpkg/plugin-compat",
+        "@yarnpkg/plugin-dlx",
+        "@yarnpkg/plugin-file",
+        "@yarnpkg/plugin-git",
+        "@yarnpkg/plugin-github",
+        "@yarnpkg/plugin-http",
+        "@yarnpkg/plugin-init",
+        "@yarnpkg/plugin-link",
+        "@yarnpkg/plugin-nm",
+        "@yarnpkg/plugin-npm",
+        "@yarnpkg/plugin-npm-cli",
+        "@yarnpkg/plugin-pack",
+        "@yarnpkg/plugin-patch",
+        "@yarnpkg/plugin-pnp",
+        "@yarnpkg/plugin-pnpm",
+        "@yarnpkg/plugin-version",
+        "@yarnpkg/plugin-workspace-tools",
+        "@yarnpkg/plugin-interactive-tools",
+        "yarn-plugin-enhanced-workspaces"
+      ]
+    }
+  },
+  "dependencies": {
+    "@yarnpkg/core": "3.1.0",
+    "@yarnpkg/fslib": "^2.6.0",
+    "@yarnpkg/libzip": "^2.2.2",
+    "@yarnpkg/parsers": "^2.4.1",
+    "@yarnpkg/plugin-compat": "3.1.1",
+    "@yarnpkg/plugin-dlx": "3.1.1",
+    "@yarnpkg/plugin-essentials": "3.1.0",
+    "@yarnpkg/plugin-file": "^2.3.0",
+    "@yarnpkg/plugin-git": "2.5.0",
+    "@yarnpkg/plugin-github": "^2.3.0",
+    "@yarnpkg/plugin-http": "2.2.0",
+    "@yarnpkg/plugin-init": "3.1.1",
+    "@yarnpkg/plugin-interactive-tools": "3.0.0",
+    "@yarnpkg/plugin-link": "^2.2.0",
+    "@yarnpkg/plugin-nm": "3.1.0",
+    "@yarnpkg/plugin-npm": "^2.6.0",
+    "@yarnpkg/plugin-npm-cli": "3.1.0",
+    "@yarnpkg/plugin-pack": "3.1.0",
+    "@yarnpkg/plugin-patch": "3.1.0",
+    "@yarnpkg/plugin-pnp": "3.1.1",
+    "@yarnpkg/plugin-pnpm": "^1.0.0",
+    "@yarnpkg/plugin-version": "3.1.0",
+    "@yarnpkg/plugin-workspace-tools": "3.1.0",
+    "@yarnpkg/shell": "3.1.0",
+    "clipanion": "^3.1.0",
+    "tree-model": "^1.0.7",
+    "treeify": "^1.1.0",
+    "tslib": "^2.3.1",
+    "typanion": "^3.7.1",
+    "yarn-plugin-enhanced-workspaces": "0.2.1"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "3.1.0",
+    "@yarnpkg/cli": "3.1.0"
+  }
+}
