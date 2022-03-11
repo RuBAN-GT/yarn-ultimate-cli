@@ -4484,9 +4484,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn-plugin-enhanced-workspaces@npm:0.2.1":
-  version: 0.2.1
-  resolution: "yarn-plugin-enhanced-workspaces@npm:0.2.1"
+"yarn-plugin-enhanced-workspaces@npm:0.2.3":
+  version: 0.2.3
+  resolution: "yarn-plugin-enhanced-workspaces@npm:0.2.3"
   dependencies:
     "@yarnpkg/builder": ^3.1.0
     "@yarnpkg/cli": ^3.1.0
@@ -4498,7 +4498,7 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^2.3.1
     typanion: ^3.7.1
-  checksum: 1a16ca79bb6e3541d9cd193722425de9cf520601979b7756952181e46935349a4437b66e3d88ec631c931c4d0f52aa639d35a41907cb6b662795069bc79d201a
+  checksum: a0984c66c0829d371a77da4a4c8c24023ff00dc972a0667ff72cba7dd74112bd3f4cdea122c6791e160dbf23d6c4053d685d82764f53817f088556610bdda30a
   languageName: node
   linkType: hard
 
@@ -4537,7 +4537,7 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^2.3.1
     typanion: ^3.7.1
-    yarn-plugin-enhanced-workspaces: 0.2.1
+    yarn-plugin-enhanced-workspaces: 0.2.3
   languageName: unknown
   linkType: soft
 
